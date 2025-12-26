@@ -31,10 +31,6 @@
   @apply flex justify-between items-center;
 }
 
-.test {
-  color: #0f0f0f;
-}
-
 @theme {
   --color-dark: #0f0f0f;
   --font-outfit: "outfit";

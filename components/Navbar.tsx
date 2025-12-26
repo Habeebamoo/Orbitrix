@@ -20,7 +20,7 @@ const Navbar = ({ setNavbarActive }: Props) => {
   return (
     <>
       {/* small screens */}
-      <div className="md:hidden fixed top-0 left-0 right-0 bottom-0 bg-dark py-6 px-5">
+      <div className="md:hidden z-10 fixed top-0 left-0 right-0 bottom-0 bg-dark py-6 px-5">
         <div className="flex-between">
           <img src="/logo.png" className="h-10" />
 
@@ -86,10 +86,10 @@ const Navbar = ({ setNavbarActive }: Props) => {
       </div>
 
       {/* large screens */}
-      <div className="max-md:hidden fixed top-0 left-0 right-0 bottom-0">
+      <div className="max-md:hidden fixed z-50 top-0 left-0 right-0 bottom-0">
 
         <div className="relative h-full w-full">
-          <div className="absolute top-0 bottom-0 right-0 left-[980px] bg-dark pt-11 px-12">
+          <div className="absolute top-0 bottom-0 right-0 w-[400px] bg-dark pt-11 px-12">
 
             {/* logo */}
             <div className="flex-between">

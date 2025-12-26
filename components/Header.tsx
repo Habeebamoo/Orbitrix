@@ -12,7 +12,7 @@ const Header = () => {
   }
 
   return (
-    <header className="p-5 lg:px-18 lg:py-9 flex-between bg-black">
+    <header className="fixed top-0 left-0 right-0 p-5 lg:px-18 lg:py-9 flex-between bg-black z-20">
       {navbarActive && <Navbar setNavbarActive={setNavbarActive} />}
 
       <div>
