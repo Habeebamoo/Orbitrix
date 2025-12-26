@@ -1,2 +1,45 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "outfit";
+  src: url("../fonts/Outfit-Regular.ttf");
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("../fonts/Inter_18pt-Medium.ttf");
+}
+
+@font-face {
+  font-family: "jsansLight";
+  src: url("../fonts/PlusJakartaSans-Light.ttf");
+}
+
+@utility flex-center {
+  @apply flex justify-center items-center;
+}
+
+@utility flex-start {
+  @apply flex justify-start items-center;
+}
+
+@utility flex-end {
+  @apply flex justify-end items-center;
+}
+
+@utility flex-between {
+  @apply flex justify-between items-center;
+}
+
+.test {
+  color: #0f0f0f;
+}
+
+@theme {
+  --color-dark: #0f0f0f;
+  --font-outfit: "outfit";
+  --font-inter: "inter";
+  --font-jsans-light: "jsansLight";
+}
+
+

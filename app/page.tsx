@@ -1,7 +1,9 @@
+import Header from "@/components/Header"
+
 const page = () => {
   return (
     <main>
-      <h1>Hello</h1>
+      <Header />
     </main>
   )
 }
