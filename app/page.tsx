@@ -6,7 +6,7 @@ const page = () => {
       <Header />
 
       {/* hero section */}
-      <section className="relative lg:mt-0 max-md:pt-50 max-md:bg-black">
+      <section className="relative lg:mt-0 max-md:pt-80 max-md:bg-black">
         <img src="/hero.jpeg" className="w-full lg:object-cover" />
 
         <div className="absolute bottom-0 left-0 right-0 lg:top-[25%] max-sm:top-[90%] z-0 px-6  lg:px-10 lg:object-cover lg:object-[70%_100%] font-bold font-inter">
