@@ -11,15 +11,17 @@ const page = () => {
 
         <div className="absolute bottom-0 left-0 right-0 lg:top-[25%] max-sm:top-[90%] z-0 px-6  lg:px-10 lg:object-cover lg:object-[70%_100%] font-bold font-inter">
 
-          <h1 className="lg:mt-0 text-white text-5xl lg:text-8xl md:text-6xl flex-start">
+          <h1 className="lg:mt-0 text-white text-4xl md:text-5xl lg:text-8xl md:text-6xl flex-start">
             <span>WE</span>
             <img src="/astro.png" className="h-15 md:h-18 lg:h-25" />
             <span>BUILD</span>
           </h1>
-          <h1 className="mt-4 text-white text-5xl lg:text-8xl md:text-6xl">
+          <h1 className="mt-4 text-white text-4xl md:text-5xl lg:text-8xl md:text-6xl">
             WHAT'S
+            <span className="sm:hidden cl
+            ml-3">NEXT</span>
           </h1>
-          <h1 className="mt-4 text-white text-5xl lg:text-8xl md:text-6xl">
+          <h1 className="mt-4 text-white text-4xl md:text-5xl lg:text-8xl md:text-6xl max-sm:hidden">
             NEXT
           </h1>
         </div>
