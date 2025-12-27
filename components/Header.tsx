@@ -5,14 +5,14 @@ import { useState } from "react";
 import Navbar from "./Navbar";
 
 const Header = () => {
-  const [navbarActive, setNavbarActive] = useState<boolean>(true)
+  const [navbarActive, setNavbarActive] = useState<boolean>(false)
 
   const showNavbar = () => {
     setNavbarActive(true)
   }
 
   return (
-    <header className="fixed top-0 left-0 right-0 p-5 lg:px-18 lg:py-9 flex-between bg-black z-20">
+    <header className="fixed top-0 left-0 right-0 p-5 lg:px-18 lg:py-9 flex-between bg-black/50 z-20">
       {navbarActive && <Navbar setNavbarActive={setNavbarActive} />}
 
       <div>

@@ -11,8 +11,8 @@
 }
 
 @font-face {
-  font-family: "jsansLight";
-  src: url("../fonts/PlusJakartaSans-Light.ttf");
+  font-family: "jsans";
+  src: url("../fonts/PlusJakartaSans-Medium.ttf");
 }
 
 @utility flex-center {
@@ -35,7 +35,7 @@
   --color-dark: #0f0f0f;
   --font-outfit: "outfit";
   --font-inter: "inter";
-  --font-jsans-light: "jsansLight";
+  --font-jsans: "jsans";
 }
 
 

@@ -6,14 +6,22 @@ const page = () => {
       <Header />
 
       {/* hero section */}
-      <section className="relative lg:mt-28">
-        <img src="/heroimg.jpg" className="h-[700px] w-full lg:object-cover lg:object-[0%_65%]" />
+      <section className="relative lg:mt-0 max-md:pt-50 max-md:bg-black">
+        <img src="/hero.jpeg" className="w-full lg:object-cover" />
 
-        <div className="absolute bottom-0 left-0 right-0 max-lgtop-[50%] lg:top-[20%] bg-gradient-to-b from-transparent from-0% via-black/60 via-40% to-black to-black/60% z-0 px-6 font-bold">
+        <div className="absolute bottom-0 left-0 right-0 lg:top-[25%] max-sm:top-[90%] z-0 px-6  lg:px-10 lg:object-cover lg:object-[70%_100%] font-bold font-inter">
 
-          <h1 className="mt-25 lg:mt-0 text-white text-5xl lg:text-8xl md:text-6xl font-inter">WE BUILD</h1>
-          <h1 className="mt-4 text-white text-5xl lg:text-8xl md:text-6xl font-inter">WHAT'S</h1>
-          <h1 className="mt-4 text-white text-5xl lg:text-8xl md:text-6xl font-inter">NEXT</h1>
+          <h1 className="lg:mt-0 text-white text-5xl lg:text-8xl md:text-6xl flex-start">
+            <span>WE</span>
+            <img src="/astro.png" className="h-15 md:h-18 lg:h-25" />
+            <span>BUILD</span>
+          </h1>
+          <h1 className="mt-4 text-white text-5xl lg:text-8xl md:text-6xl">
+            WHAT'S
+          </h1>
+          <h1 className="mt-4 text-white text-5xl lg:text-8xl md:text-6xl">
+            NEXT
+          </h1>
         </div>
       </section>
 
