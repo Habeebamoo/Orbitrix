@@ -15,6 +15,11 @@
   src: url("../fonts/PlusJakartaSans-Medium.ttf");
 }
 
+@font-face {
+  font-family: "jsl";
+  src: url("../fonts/PlusJakartaSans-Light.ttf");
+}
+
 @utility flex-center {
   @apply flex justify-center items-center;
 }
@@ -36,6 +41,7 @@
   --font-outfit: "outfit";
   --font-inter: "inter";
   --font-jsans: "jsans";
+  --font-jsl: "jsl";
 }
 
 
