@@ -28,7 +28,7 @@ const page = () => {
         </div>
       </section>
 
-      <section className="bg-black max-md:pt-70 max-lg:pt-0 pb-100 px-6">
+      <section className="bg-black max-md:pt-70 max-lg:pt-20 pb-100 px-6">
         {/* mobile */}
         <div className="sm:hidden">
           <div className="relative p-2">
