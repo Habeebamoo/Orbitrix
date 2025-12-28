@@ -46,7 +46,7 @@ const page = () => {
         </div>
 
         {/* desktop */}
-        <div className="grid grid-cols-2 gap-6 md:w-[80%] mx-auto">
+        <div className="max-sm:hidden grid grid-cols-2 gap-6 md:w-[80%] mx-auto">
           <div className="flex-center">
             <img src="/guillermo.jpg" className="w-full lg:w-[500px]" />
           </div>
