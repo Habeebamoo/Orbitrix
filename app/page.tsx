@@ -28,7 +28,7 @@ const page = () => {
         </div>
       </section>
 
-      <section className="bg-black max-md:pt-70 max-lg:pt-20 pb-100 px-6">
+      <section className="bg-black max-md:pt-70 max-lg:pt-20 px-6">
         {/* mobile */}
         <div className="sm:hidden">
           <div className="relative p-2">
@@ -63,6 +63,18 @@ const page = () => {
             </p>
           </div>
         </div>
+      </section>
+
+      <section className="pt-30 pb-50 bg-black">
+        <img src="/space-man.jpg" className="max-sm:h-60 max-sm:object-center max-sm:object-cover" />
+
+        <div className="marquee">
+          <h1 className="marquee-content font-outfit text-5xl lg:text-8xl md:text-7xl mt-6 text-white"
+          >
+            ROBOTICS, AI & DIGITAL INNOVATION
+          </h1>
+        </div>
+
       </section>
     </main>
   )
