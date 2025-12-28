@@ -81,7 +81,7 @@ const page = () => {
       </section>
 
       {/* COMPANIES SECTION */}
-      <section className="pt-30 pb-150 bg-black grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 sm:px-30 md:px-20 lg:px-20 gap-y-6">
+      <section className="pt-30 pb-50 bg-black grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 sm:px-30 md:px-20 lg:px-20 gap-y-6">
         <div className="flex-center relative">
           <img src="space-2.png" className="h-18" />
 
