@@ -36,7 +36,7 @@ const page = () => {
             <img src="/history.jpg" className="absolute top-[150px] left-0 h-[400px]" />
           </div>
 
-          <p className="text-gray-300 text-[15px] w-[80%] leading-[25px] font-jsl max-sm:mt-160">
+          <p className="text-gray-300 text-[15px] w-[80%] leading-[25px] font-jsl max-sm:mt-140">
             Orbitrix is a forward-thinking technology agency specializing in artificial intelligence, robotics, and IoT. We help businesses evolve by designing smart, connected systems that automate processes, improve efficiency, and unlock new possibilities.
           </p>
 
