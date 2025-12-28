@@ -5,7 +5,7 @@ const page = () => {
     <main>
       <Header />
 
-      {/* hero section */}
+      {/* HERO SECTION */}
       <section className="relative lg:mt-0 max-md:pt-60 max-md:bg-black">
         <img src="/hero.jpeg" className="w-full lg:object-cover" />
 
@@ -28,6 +28,8 @@ const page = () => {
         </div>
       </section>
 
+
+      {/* SPACE SECTION */}
       <section className="bg-black max-md:pt-70 max-lg:pt-20 px-6">
         {/* mobile */}
         <div className="sm:hidden">
@@ -65,7 +67,9 @@ const page = () => {
         </div>
       </section>
 
-      <section className="pt-30 pb-50 bg-black">
+
+      {/* MARQUEE SECTION */}
+      <section className="pt-30 bg-black">
         <img src="/space-man.jpg" className="max-sm:h-60 max-sm:object-center max-sm:object-cover" />
 
         <div className="marquee">
@@ -74,7 +78,41 @@ const page = () => {
             ROBOTICS, AI & DIGITAL INNOVATION
           </h1>
         </div>
+      </section>
 
+      {/* COMPANIES SECTION */}
+      <section className="pt-30 pb-150 bg-black grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 sm:px-30 md:px-20 lg:px-20 gap-y-6">
+        <div className="flex-center relative">
+          <img src="space-2.png" className="h-18" />
+
+          <div className="comp-section-box"></div>
+        </div>
+
+        <div className="flex-center relative">
+          <img src="space-com.png" className="h-18" />
+
+          <div className="comp-section-box"></div>
+        </div>
+        <div className="flex-center relative">
+          <img src="space.png" className="h-18" />
+
+          <div className="comp-section-box"></div>
+        </div>
+        <div className="flex-center relative">
+          <img src="axiom.png" className="h-18" />
+
+          <div className="comp-section-box"></div>
+        </div>
+        <div className="flex-center relative">
+          <img src="esa.png" className="h-18" />
+
+          <div className="comp-section-box"></div>
+        </div>
+        <div className="flex-center relative">
+          <img src="nasa.png" className="h-18" />
+
+          <div className="comp-section-box"></div>
+        </div>
       </section>
     </main>
   )
