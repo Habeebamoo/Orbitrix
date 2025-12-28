@@ -33,7 +33,7 @@ const page = () => {
         <div className="sm:hidden">
           <div className="relative p-2">
             <img src="/guillermo.jpg" className="absolute h-[300px] w-[350px] right-0" />
-            <img src="/history.jpg" className="absolute top-[150px] left-0 h-[450px]" />
+            <img src="/history.jpg" className="absolute top-[150px] left-0 h-[400px]" />
           </div>
 
           <p className="text-gray-300 text-[15px] w-[80%] leading-[25px] font-jsl max-sm:mt-160">
