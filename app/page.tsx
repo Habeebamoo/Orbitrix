@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 
 const page = () => {
@@ -114,6 +115,9 @@ const page = () => {
           <div className="comp-section-box"></div>
         </div>
       </section>
+
+      {/* FOOTER */}
+      <Footer />
     </main>
   )
 }

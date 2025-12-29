@@ -40,6 +40,14 @@
   @apply absolute top-0 bottom-0 left-0 right-0 bg-black/80 hover:bg-transparent active:bg-transparent cursor-pointer;
 }
 
+@utility footer-nav-active {
+  @apply font-outfit text-white inline-block border-b-white border-b-2 cursor-pointer;
+}
+
+@utility footer-nav {
+  @apply font-outfit text-gray-400 cursor-pointer;
+}
+
 .marquee {
   width: 100%;
   overflow: hidden;
