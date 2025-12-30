@@ -52,7 +52,7 @@ const AboutPage = () => {
       </section>
 
       {/* 2nd Section */}
-      <section className="mt-8 sm:mt-20 pb-100">
+      <section className="bg-gray-50 mt-8 sm:mt-20 pb-100">
         <p className="font-jsl text-center text-[14px] font-bold">WHAT WE OFFER</p>
 
         <h1 className="mt-2 md:mt-4 lg:mt-6 text-center font-jsans w-[90%] mx-auto text-2xl sm:text-3xl md:text-4xl lg:font-bold xl:text-5xl">
