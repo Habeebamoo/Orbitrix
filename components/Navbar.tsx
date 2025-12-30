@@ -101,7 +101,7 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
       <div className="max-md:hidden fixed z-50 top-0 left-0 right-0 bottom-0 ">
 
         <div className="relative h-full w-full">
-          <div className={`${theme === "dark" ? "bg-dark" : "bg-white"} absolute top-0 bottom-0 right-0 w-[400px] pt-11 px-12`}>
+          <div className={`${theme === "dark" ? "bg-dark" : "bg-white border-l-1 border-l-gray-200"} absolute top-0 bottom-0 right-0 w-[400px] pt-11 px-12`}>
 
             {/* logo */}
             <div className="flex-between">
