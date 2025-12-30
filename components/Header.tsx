@@ -38,7 +38,7 @@ const Header = ({ theme }: { theme: "light" | "dark" }) => {
   }
 
   return (
-    <header className={`${theme == "light" ? "bg-white" : "bg-black/50"} fixed top-0 left-0 right-0 p-5 lg:px-18 lg:py-9 flex-between z-20`}>
+    <header className={`${theme == "light" ? "bg-white border-b-1 border-b-gray-100" : "bg-black/50"} fixed top-0 left-0 right-0 p-5 lg:px-18 lg:py-9 flex-between z-20`}>
       {navbarActive && <Navbar theme={theme} setNavbarActive={setNavbarActive} />}
 
       <div>
