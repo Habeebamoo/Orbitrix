@@ -4,7 +4,7 @@ import Header from "@/components/Header"
 const page = () => {
   return (
     <main>
-      <Header />
+      <Header theme="dark" />
 
       {/* HERO SECTION */}
       <section className="relative lg:mt-0 max-md:pt-60 max-md:bg-black">

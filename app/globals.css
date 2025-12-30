@@ -40,6 +40,23 @@
   @apply absolute top-0 bottom-0 left-0 right-0 bg-black/80 hover:bg-transparent active:bg-transparent cursor-pointer;
 }
 
+@utility header-nav-dark-active {
+  @apply text-white inline-block border-b-white border-b-2 cursor-pointer;
+}
+
+@utility header-nav-dark {
+  @apply text-white cursor-pointer hover:inline-block hover:border-b-white hover:border-b-2;
+}
+
+
+@utility header-nav-light-active {
+  @apply inline-block border-b-2 cursor-pointer;
+}
+
+@utility header-nav-light {
+  @apply cursor-pointer hover:inline-block hover:border-b hover:border-b-2
+}
+
 @utility footer-nav-active {
   @apply font-outfit text-white inline-block border-b-white border-b-2 cursor-pointer;
 }
