@@ -15,7 +15,7 @@ const AboutPage = () => {
         {/* grid */}
         <div className="mt-6 md:mt-10 px-6 md:grid md:grid-cols-2 lg:w-[90%] min-[1250px]:w-[80%] mx-auto">
 
-          <div className="relative w-[350px] sm:w-[450px] md:w-[350px] lg:w-[400px] xl:w-[500px]">
+          <div className="relative w-[300px] sm:w-[450px] md:w-[350px] lg:w-[400px] xl:w-[500px]">
             <img src="/satellite.jpg" className="h-full object-center object-cover" />
 
             <h1 className="absolute font-outfit py-3 px-4 w-60 text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white bg-black right-[-40px] bottom-0">
