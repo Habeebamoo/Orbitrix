@@ -16,7 +16,7 @@ const AboutPage = () => {
         {/* grid */}
         <div className="mt-6 md:mt-10 px-6 md:grid md:grid-cols-2 lg:w-[90%] min-[1250px]:w-[80%] mx-auto">
 
-          <div className="relative w-[300px] sm:w-[450px] md:w-[350px] lg:w-[400px] xl:w-[500px]">
+          <div className="relative w-[270px] sm:w-[450px] md:w-[350px] lg:w-[400px] xl:w-[500px]">
             <img src="/satellite.jpg" className="h-full object-center object-cover" />
 
             <h1 className="absolute font-outfit py-3 px-4 w-60 text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white bg-black right-[-40px] bottom-0">
@@ -52,10 +52,10 @@ const AboutPage = () => {
       </section>
 
       {/* 2nd Section */}
-      <section className="bg-gray-50 mt-8 sm:mt-20 pb-100">
+      <section className="bg-gray-50 pt-10 sm:pt-20 pb-100">
         <p className="font-jsl text-center text-[14px] font-bold">WHAT WE OFFER</p>
 
-        <h1 className="mt-2 md:mt-4 lg:mt-6 text-center font-jsans w-[90%] mx-auto text-2xl sm:text-3xl md:text-4xl lg:font-bold xl:text-5xl">
+        <h1 className="mt-2 md:mt-4 lg:mt-6 text-center font-jsans w-[85%] sm:w-[90%] mx-auto text-2xl sm:text-3xl md:text-4xl lg:font-bold xl:text-5xl">
           Adventure beyond the stars, adrenaline that defies gravity – welcome to our cosmic
         </h1>
       </section>
