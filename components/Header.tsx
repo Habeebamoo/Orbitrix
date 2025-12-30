@@ -19,7 +19,7 @@ const Header = () => {
         <img src="/logo.png" alt="Orbitrix Logo" className="h-8 lg:h-10" />
       </div>
       <div className="flex-between font-outfit gap-20">
-        <div className="max-lg:hidden text-white flex-between gap-7">
+        <div className="max-md:hidden text-white flex-between gap-7">
           <p>Home</p>
           <p>About Us</p>
           <p>Our Services</p>
