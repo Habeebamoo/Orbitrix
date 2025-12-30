@@ -8,7 +8,8 @@ const AboutPage = () => {
     <>
       <Header theme="light" />
 
-      <section className="bg-gray-50 pt-30 lg:pt-40 pb-100">
+      {/* 1st Section */}
+      <section className="bg-gray-50 pt-30 lg:pt-40">
         <h1 className="text-center font-outfit text-2xl md:text-4xl lg:text-5xl">About Us</h1>
         <ChevronDown className="mx-auto" />
 
@@ -48,6 +49,15 @@ const AboutPage = () => {
           </div>
         </div>
 
+      </section>
+
+      {/* 2nd Section */}
+      <section className="mt-8 sm:mt-20 pb-100">
+        <p className="font-jsl text-center text-[14px] font-bold">WHAT WE OFFER</p>
+
+        <h1 className="mt-2 md:mt-4 lg:mt-6 text-center font-jsans w-[90%] mx-auto text-2xl sm:text-3xl md:text-4xl lg:font-bold xl:text-5xl">
+          Adventure beyond the stars, adrenaline that defies gravity – welcome to our cosmic
+        </h1>
       </section>
     </>
   )
