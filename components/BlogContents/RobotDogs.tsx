@@ -1,4 +1,3 @@
-import React from 'react'
 import BlogSearchBox from '../BlogSearchBox'
 
 const RobotDogs = () => {
