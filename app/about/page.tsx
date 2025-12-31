@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import Header from "@/components/Header"
 import { ArrowRight, ChevronDown } from "lucide-react"
 
@@ -63,7 +64,7 @@ const AboutPage = () => {
 
 
       {/* 3rd Section */}
-      <section className="bg-gray-50 pt-10 sm:pt-20 pb-100">
+      <section className="bg-gray-50 pt-10 sm:pt-20 pb-20">
         <p className="font-jsans text-center">Peter Bowman</p>
         <p className="font-jsl text-gray-500 text-center text-sm">Creative Director</p>
 
@@ -109,6 +110,8 @@ const AboutPage = () => {
           
         </div>
       </section>
+
+      <Footer />
     </>
   )
 }
