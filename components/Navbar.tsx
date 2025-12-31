@@ -27,6 +27,10 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
     router.push("/about")
   }
 
+  const toBlog = () => {
+    router.push("/blog")
+  }
+
   return (
     <>
       {/* small screens */}
@@ -70,6 +74,7 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
 
           <div 
             className={isActive("/blog") ? "text-white mt-2 font-bold" : "text-gray-300 mt-2"}
+            onClick={toBlog}
           >
             Blog
           </div>
