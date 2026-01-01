@@ -76,12 +76,39 @@
   animation: scroll 11s linear infinite;
 }
 
+.marquee-content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  white-space: nowrap;
+  animation: scroll 12s linear infinite;
+}
+
+.marquee-content2-reverse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  white-space: nowrap;
+  animation: scrollReverse 12s linear infinite;
+}
+
 @keyframes scroll {
   from {
     transform: translateX(100%);
   }
   to {
     transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollReverse {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
   }
 }
 
