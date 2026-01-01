@@ -1,4 +1,5 @@
 import { ArrowRight, X } from "lucide-react";
+import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { Dispatch, SetStateAction } from "react";
 import { FaDribbble, FaInstagram, FaXTwitter } from "react-icons/fa6";
@@ -19,18 +20,6 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
     setNavbarActive(false)
   }
 
-  const toHome = () => {
-    router.push("/")
-  }
-
-  const toAbout = () => {
-    router.push("/about")
-  }
-
-  const toBlog = () => {
-    router.push("/blog")
-  }
-
   return (
     <>
       {/* small screens */}
@@ -45,39 +34,41 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
 
         {/* navs */}
         <div className="mt-15 text-[21px] font-outfit">
-          <div 
-            onClick={toHome}
+          <Link
+            href="/" 
             className={isActive("/") ? "text-white font-bold" : "text-gray-300"}
           >
             Home
-          </div>
+          </Link>
 
-          <div 
-            onClick={toAbout}
+          <Link 
+            href="/about"
             className={isActive("/about") ? "text-white mt-2 font-bold flex-start gap-6" : "text-gray-300 mt-2 flex-start gap-6"}
           >
             <span>About Us</span>
             <ArrowRight />
-          </div>
+          </Link>
 
-          <div 
-            className={isActive("/services") ? "text-white mt-2 font-bold" : "text-gray-300 mt-2"}
+          <Link 
+            href="/services"
+            className={isActive("/services") ? "text-white mt-2 font-bold block" : "text-gray-300 mt-2 block"}
           >
             Our Services
-          </div>
+          </Link>
 
-          <div
-            className={isActive("/contact") ? "text-white mt-2 font-bold" : "text-gray-300 mt-2"}
+          <Link
+            href="/contact"
+            className={isActive("/contact") ? "text-white mt-2 font-bold block" : "text-gray-300 mt-2 block"}
           >
             Contact Us
-          </div>
+          </Link>
 
-          <div 
-            className={isActive("/blog") ? "text-white mt-2 font-bold" : "text-gray-300 mt-2"}
-            onClick={toBlog}
+          <Link
+            href="/blog" 
+            className={isActive("/blog") ? "text-white mt-2 font-bold block" : "text-gray-300 mt-2 block"}
           >
             Blog
-          </div>
+          </Link>
         </div>
 
         <hr className="text-gray-800 mt-8" />

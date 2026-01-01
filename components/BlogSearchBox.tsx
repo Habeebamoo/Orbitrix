@@ -36,16 +36,16 @@ const BlogSearchBox = () => {
         {/* trending #2 */}
         <div className="mt-6 flex justify-start items-start gap-4">
           <div className="h-18 w-20 flex-none lg:h-20 lg:w-22">
-            <img src="/robot-dogs.jpg" className="h-full w-full" />
+            <img src="/drone2.jpg" className="h-full w-full" />
           </div>
           <div>
             <div className="flex-start gap-2 text-[12px] flex-wrap">
               <p className="font-jsans">TRENDING</p>
               <div className="bg-gray-400 h-1 w-1 rounded-full"></div>
-              <span className="font-jsl text-gray-500">December 13, 2025</span>
+              <span className="font-jsl text-gray-500">December 11, 2025</span>
             </div>
 
-            <h1 className="font-outfit text-lg mt-2">The Evolution of Robotics is here in Nigeria, Africa</h1>
+            <h1 className="font-outfit text-lg mt-2">Orbitrix Drone is looking at changing the logistics system in Africa.</h1>
           </div>
         </div>
 

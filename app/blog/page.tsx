@@ -16,7 +16,7 @@ const BlogPage = () => {
         <ChevronDown className="mx-auto" />
       </div>
 
-      <section className="mt-6 lg:mt-12 px-6 lg:px-10 xl:px-20 grid grid-cols-1 lg:grid-cols-3 lg:gap-6 mb-20">
+      <section className="mt-6 lg:mt-12 px-6 lg:px-10 xl:px-20 grid grid-cols-1 lg:grid-cols-3 lg:gap-8 mb-20">
         {/* blogs */}
         <div className="lg:col-span-2">
           {blogs.map((blog: Blog) => <BlogDisplay key={blog._id} blog={blog} />)}
