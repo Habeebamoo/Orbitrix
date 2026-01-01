@@ -1,9 +1,10 @@
+import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import { ArrowRight, ChevronDown, ShipWheel } from "lucide-react"
 
 const ServicePage = () => {
   return (
-    <main className="bg-gray-50 pt-30 lg:pt-40 pb-200">
+    <main className="bg-gray-50 pt-30 lg:pt-40">
       <Header theme="light" />
 
       <div>
@@ -14,7 +15,7 @@ const ServicePage = () => {
       <div className="px-6 md:px-10 xl:px-20 mt-6">
         <p className="font-outfit text-gray-700 font-bold text-[13px] lg:text-md">OUR CORE CAPABILITIES</p>
 
-        <h1 className="font-outfit text-2xl md:text-4xl lg:text-5xl lg:w-[60%] mt-2">Where advanced tech meets real-world impact</h1>
+        <h1 className="font-outfit text-2xl md:text-4xl lg:text-5xl md:w-[60%] mt-2">Where advanced tech meets real-world impact</h1>
       </div>
 
       <section className="px-6 mt-12 lg:mt-16">
@@ -101,7 +102,7 @@ const ServicePage = () => {
         </div>
       </section>
 
-      <section>
+      <section className="mb-30">
         <div className="marquee">
           <div className="marquee-content2 font-outfit text-5xl lg:text-9xl md:text-7xl mt-6"
           >
@@ -137,7 +138,7 @@ const ServicePage = () => {
         </div>
 
         <div className="marquee">
-          <div className="marquee-content2-reverse font-outfit text-5xl md:text-7xl lg:text-9xl mt-2"
+          <div className="marquee-content2-reverse font-outfit text-5xl md:text-7xl lg:text-9xl mt-3"
           >
           <span>ADVENTURES</span>
            <span>
@@ -170,6 +171,8 @@ const ServicePage = () => {
           </div>
         </div>
       </section>
+
+      <Footer />
     </main>
   )
 }
