@@ -73,7 +73,7 @@ const DroneLogistics = () => {
       <div className='relative mt-4 h-[450px]'>
         <img src="/galaxy.jpg" className="h-full w-full" />
 
-        <div className='absolute top-0 bottom-0 left-0 right-0 bg-black/50 flex-center flex-col px-8'>
+        <div className='absolute top-0 bottom-0 left-0 right-0 bg-black/30 flex-center flex-col px-8'>
           <p className='font-jsl text-gray-300 mt-2 text-sm leading-[26px] text-center'>
             Orbitrix provides the drones, handles the technology integration with your dispatch system, trains your team, and manages maintenance. You don’t need to become aviation experts. We handle the complexity. You handle logistics like you always have, except now some of your packages fly.
           </p>
