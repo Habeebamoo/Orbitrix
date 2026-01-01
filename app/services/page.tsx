@@ -1,8 +1,13 @@
+"use client";
+
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
-import { ArrowRight, ChevronDown, ShipWheel } from "lucide-react"
+import { ArrowRight, ChevronDown, MoveDownRight, ShipWheel } from "lucide-react"
+import { useState } from "react";
 
 const ServicePage = () => {
+  const [step, setStep] = useState<number>(0)
+
   return (
     <main className="bg-gray-50 pt-30 lg:pt-40">
       <Header theme="light" />
@@ -102,7 +107,7 @@ const ServicePage = () => {
         </div>
       </section>
 
-      <section className="mb-30">
+      <section>
         <div className="marquee">
           <div className="marquee-content2 font-outfit text-5xl lg:text-9xl md:text-7xl mt-6"
           >
@@ -169,6 +174,75 @@ const ServicePage = () => {
              <ShipWheel className="animate-spin" />
            </span>
           </div>
+        </div>
+      </section>
+
+
+      <section className="my-25 grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="px-10">
+          <img src="/turbines.svg" className="w-full" />
+        </div>
+
+        <div>
+          <div className="px-6 md:px-10 xl:px-20 mt-6">
+            <p className="font-outfit text-gray-700 font-bold text-[13px] lg:text-md">QUESTIONS & ANSWERS</p>
+
+            <h1 className="font-outfit text-2xl md:text-4xl lg:text-5xl lg:w-[60%] mt-2">What you need to know about our tours</h1>
+          </div>
+
+          {/* accordion */}
+          <div className="px-8">
+
+            {/* 1 */}
+            <div 
+              onClick={() => setStep(1)} 
+              className="mt-8 border-b-1 border-t-1 py-4 border-gray-300 cursor-pointer"
+            >
+              <div className="text-lg font-outfit flex-between">
+                <h1>What’s a zero-gravity flight?</h1>
+                {step == 1 ? <MoveDownRight /> : <ArrowRight />} 
+              </div> 
+
+              <p className={`${step == 1 ? "" : "hidden"} font-jsl mt-4 text-sm text-gray-500 duration-500`}>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+              </p>
+            </div>
+
+            {/* 2 */}
+            <div 
+              onClick={() => setStep(2)} 
+              className="border-b-1 py-4 border-gray-300 cursor-pointer"
+            >
+              <div className="text-lg font-outfit flex-between">
+                <h1>
+                  Are there any restrictions for space tours?
+                </h1>
+                {step == 2 ? <MoveDownRight /> : <ArrowRight />} 
+              </div> 
+
+              <p className={`${step == 2 ? "" : "hidden"} font-jsl mt-4 text-sm text-gray-500 duration-500`}>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+              </p>
+            </div>
+
+            {/* 3 */}
+            <div 
+              onClick={() => setStep(3)} 
+              className="border-b-1 py-4 border-gray-300 cursor-pointer"
+            >
+              <div className="text-lg font-outfit flex-between">
+                <h1>
+                  What’s the cancellation policy?
+                </h1>
+                {step == 3 ? <MoveDownRight /> : <ArrowRight />} 
+              </div> 
+
+              <p className={`${step == 3 ? "" : "hidden"} font-jsl mt-4 text-sm text-gray-500 duration-500`}>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+              </p>
+            </div>
+          </div>
+
         </div>
       </section>
 
