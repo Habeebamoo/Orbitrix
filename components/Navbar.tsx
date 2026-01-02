@@ -1,8 +1,8 @@
 import { ArrowRight, X } from "lucide-react";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { redirect, usePathname } from "next/navigation";
 import { Dispatch, SetStateAction } from "react";
-import { FaDribbble, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { FaDribbble, FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { ImFacebook } from "react-icons/im";
 
 interface Props {
@@ -12,12 +12,23 @@ interface Props {
 
 const Navbar = ({ theme, setNavbarActive }: Props) => {
   const pathname = usePathname()
-  const router = useRouter()
 
   const isActive = (href: string) => pathname === href;
 
   const closeNavbar = () => {
     setNavbarActive(false)
+  }
+
+  const toX = () => {
+    redirect("https://x.com/Orbitriximpacts")
+  }
+
+  const toLinkedIn = () => {
+    redirect("https://www.linkedin.com/company/orbitrixng")
+  }
+
+  const toInstagram = () => {
+    redirect("https://www.instagram.com/orbitriximpactsafrica")
   }
 
   return (
@@ -79,15 +90,24 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
             <ImFacebook size={13} />
           </div>
 
-          <div className="text-white hover:text-gray-400 active:text-gray-400">
+          <div 
+            onClick={toX}
+            className="text-white hover:text-gray-400 active:text-gray-400"
+          >
             <FaXTwitter size={13} />
           </div>
 
-          <div className="text-white hover:text-pink-500 active:text-pink-500">
-            <FaDribbble size={14} />
+          <div 
+            onClick={toLinkedIn} 
+            className="text-white hover:text-blue-600 active:text-blue-600"
+          >
+            <FaLinkedin size={15} />
           </div>
 
-          <div className="text-white hover:text-purple-500 active:text-purple-500">
+          <div 
+            onClick={toInstagram} 
+            className="text-white hover:text-purple-500 active:text-purple-500"
+          >
             <FaInstagram size={15} />
           </div>
         </div>
@@ -119,17 +139,26 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
                 <p className="text-xl">Facebook</p>
               </div>
 
-              <div className="flex-start gap-6 mt-8 cursor-pointer hover:text-gray-400">
+              <div 
+                onClick={toX} 
+                className="flex-start gap-6 mt-8 cursor-pointer hover:text-gray-400"
+              >
                 <FaXTwitter />
                 <p className="text-xl">Twitter</p>
               </div>
 
-              <div className="flex-start gap-6 mt-8 cursor-pointer hover:text-pink-500">
-                <FaDribbble />
-                <p className="text-xl">Dribble</p>
+              <div 
+                onClick={toLinkedIn} 
+                className="flex-start gap-6 mt-8 cursor-pointer hover:text-blue-600"
+              >
+                <FaLinkedin size={20} />
+                <p className="text-xl">LinkedIn</p>
               </div>
 
-              <div className="flex-start gap-6 mt-8 cursor-pointer hover:text-purple-500">
+              <div 
+                onClick={toInstagram} 
+                className="flex-start gap-6 mt-8 cursor-pointer hover:text-purple-500"
+              >
                 <FaInstagram />
                 <p className="text-xl">Instagram</p>
               </div>
@@ -139,7 +168,7 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
 
             <div className="mt-10">
               <p className={`${theme == "dark" ? "text-white" : "text-black"} font-outfit text-2xl`}>+1 840 841 25 69</p>
-              <p className="text-gray-400 font-outfit mt-2">info@email.com</p>
+              <p className="text-gray-400 font-outfit mt-2">orbitriximpactingafrica@gmail.com</p>
             </div>
 
           </div>
