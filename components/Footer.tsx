@@ -1,7 +1,8 @@
 "use client";
 
-import { usePathname } from "next/navigation";
-import { FaDribbble, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import Link from "next/link";
+import { redirect, usePathname } from "next/navigation";
+import { FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { ImFacebook } from "react-icons/im";
 
 const Footer = () => {
@@ -10,6 +11,18 @@ const Footer = () => {
   const isActive = (href: string) => pathname === href;
 
   const year = new Date().getFullYear()
+
+  const toX = () => {
+    redirect("https://x.com/Orbitriximpacts")
+  }
+
+  const toLinkedIn = () => {
+    redirect("https://www.linkedin.com/company/orbitrixng")
+  }
+
+  const toInstagram = () => {
+    redirect("https://www.instagram.com/orbitriximpactsafrica")
+  }
 
   return (
     <footer className="relative">
@@ -25,19 +38,27 @@ const Footer = () => {
           {/* navs */}
           <div className="flex justify-center items-start gap-3 mt-4 sm:mt-6 items-start">
             <div className={isActive("/") ? "footer-nav-active" : "footer-nav"}>
-              <span>Home</span>
+              <Link href="/">
+                Home
+              </Link>
             </div>
 
             <div className={isActive("/blog") ? "footer-nav-active" : "footer-nav"}>
-              <span>Blog</span>
+              <Link href="/blog">
+                Blog
+              </Link>
             </div>
 
             <div className={isActive("/shop") ? "footer-nav-active" : "footer-nav"}>
-              <span>Shop</span>
+              <Link href="/shop">
+                Shop
+              </Link>
             </div>
 
             <div className={isActive("/contact") ? "footer-nav-active" : "footer-nav"}>
-              <span>Contact Us</span>
+              <Link href="/contact">
+                Contact Us
+              </Link>
             </div>
           </div>
 
@@ -47,15 +68,24 @@ const Footer = () => {
               <ImFacebook size={14} />
             </div>
 
-            <div className="text-white h-10 w-10 border-1 border-gray-600 rounded-full flex-center">
+            <div 
+              onClick={toX} 
+              className="text-white h-10 w-10 border-1 border-gray-600 rounded-full flex-center"
+            >
               <FaXTwitter size={14} />
             </div>
 
-            <div className="text-white h-10 w-10 border-1 border-gray-600 rounded-full flex-center">
-              <FaDribbble size={16} />
+            <div 
+              onClick={toLinkedIn} 
+              className="text-white h-10 w-10 border-1 border-gray-600 rounded-full flex-center"
+            >
+              <FaLinkedin size={16} />
             </div>
 
-            <div className="text-white h-10 w-10 border-1 border-gray-600 rounded-full flex-center">
+            <div 
+              onClick={toInstagram} 
+              className="text-white h-10 w-10 border-1 border-gray-600 rounded-full flex-center"
+            >
               <FaInstagram size={16} />
             </div>
           </div>

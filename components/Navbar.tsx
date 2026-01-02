@@ -2,7 +2,7 @@ import { ArrowRight, X } from "lucide-react";
 import Link from "next/link";
 import { redirect, usePathname } from "next/navigation";
 import { Dispatch, SetStateAction } from "react";
-import { FaDribbble, FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { ImFacebook } from "react-icons/im";
 
 interface Props {
