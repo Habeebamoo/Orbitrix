@@ -65,6 +65,10 @@
   @apply font-outfit text-gray-400 cursor-pointer;
 }
 
+@utility contact-input {
+  @apply py-3 md:py-4 pl-10 text-sm placeholder:font-jsl placeholder:text-gray-600 border-b-1 border-gray-300 font-jsl focus:outline-none w-full;
+}
+
 .marquee {
   width: 100%;
   overflow: hidden;
