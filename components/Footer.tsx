@@ -26,7 +26,7 @@ const Footer = () => {
 
   return (
     <footer className="relative">
-      <img src="/space-selfie.jpg" className="object-center object-cover max-md:h-80 sm:h-90 md:h-80 lg:h-90" />
+      <img src="/space-selfie.png" className="object-center object-cover max-md:h-80 sm:h-90 md:h-80 lg:h-90" />
 
       <div className="absolute top-0 bottom-0 left-0 right-0 bg-black/70 pt-15">
 

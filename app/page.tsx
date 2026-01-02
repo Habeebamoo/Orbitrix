@@ -29,7 +29,6 @@ const page = () => {
         </div>
       </section>
 
-
       {/* SPACE SECTION */}
       <section className="bg-black max-md:pt-70 max-lg:pt-20 px-6">
         {/* mobile */}
@@ -71,7 +70,7 @@ const page = () => {
 
       {/* MARQUEE SECTION */}
       <section className="pt-30 bg-black">
-        <img src="/space-man.jpg" className="max-sm:h-60 max-sm:object-center max-sm:object-cover" />
+        <img src="/space-man.png" className="max-sm:h-60 max-sm:object-center max-sm:object-cover" />
 
         <div className="marquee">
           <h1 className="marquee-content font-outfit text-5xl lg:text-8xl md:text-7xl mt-6 text-white"
