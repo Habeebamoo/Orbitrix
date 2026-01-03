@@ -38,7 +38,11 @@ const ContactPage = () => {
           </h1>
 
           <p className="font-jsl text-gray-500 mt-3 md:mt-4 text-[15px] md:text-[16px]">
-            Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+            We are always open to collaboration, patnerships, and forward-thinking conversations.
+          </p>
+
+          <p className="font-jsl text-gray-500 mt-4 text-[15px] md:text-[16px]">
+            Whether you are interested in our work, exploring a patnership, or simply want to learn more about what we do, we would love to hear from you.
           </p>
 
           <div className="font-jsl text-gray-500 text-[15px] md:text-[16px] flex-start gap-3 mt-8">

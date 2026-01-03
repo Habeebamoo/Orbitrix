@@ -69,41 +69,40 @@ const ServicePage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6 px-6 md:px-10 xl:px-25">
 
           <div className="px-6 py-10 bg-white border-1 border-stone-300">
-            <img src="/astro-icon.png" className="h-15 lg:h-20 mx-auto" />
+            <img src="/drone-icon.png" className="h-20 lg:h-20 mx-auto" />
 
-            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Space Travel</h1>
+            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Logistics Drone</h1>
 
             <p className="mt-2 text-[15px] font-jsl text-center text-gray-500">
-              Consectetur adipiscing elit, sed do eiusm od tempor incididunt ut labore.
+              Smart aerial delivery systems designed to move goods faster, safer, and beyond the limitatins of rad traffic.
             </p>
 
             <ArrowRight className="mt-4 mx-auto" />
           </div>
 
           <div className="px-6 py-10 bg-white border-1 border-stone-300">
-            <img src="/balloon-icon.png" className="h-15 lg:h-20 mx-auto" />
+            <img src="/dog-icon.png" className="h-20 lg:h-20 mx-auto" />
 
-            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Hot Air Ballons</h1>
+            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Robotics Dogs</h1>
 
             <p className="mt-2 text-[15px] font-jsl text-center text-gray-500">
-              Consectetur adipiscing elit, sed do eiusm od tempor incididunt ut labore.
+              Intelligent robotic companions built to assist with tasks, support operations, and explore human - robot interactions.
             </p>
 
             <ArrowRight className="mt-4 mx-auto" />
           </div>
 
           <div className="px-6 py-10 bg-white border-1 border-stone-300">
-            <img src="/jet-icon.png" className="h-25 lg:h-30 mx-auto" />
+            <img src="/robot-icon.png" className="h-19 lg:h-30 mx-auto" />
 
-            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-4">Private Jets</h1>
+            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Humanoid Robots</h1>
 
             <p className="mt-2 text-[15px] font-jsl text-center text-gray-500">
-              Consectetur adipiscing elit, sed do eiusm od tempor incididunt ut labore.
+              Advanced robotic systems developed to study automation, assistance, and future human - machine collaboration
             </p>
 
             <ArrowRight className="mt-4 mx-auto" />
-          </div>
-          
+          </div>          
         </div>
       </section>
 

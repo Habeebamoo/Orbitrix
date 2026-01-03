@@ -27,10 +27,18 @@ const AboutPage = () => {
           </div>
 
           <div className="max-md:mt-8">
-            <h1 className="font-outfit text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl">Embark on a space journey with us</h1>
+            <h1 className="font-outfit text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl">Embark on a life changing journey with us</h1>
 
-            <p className="font-jsl text-gray-500 mt-2 md:mt-4 sm:w-[90%]">
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
+            <p className="font-jsl text-gray-600 mt-4 md:mt-4 sm:w-[90%]">
+              Orbitrix is an advanced innovation agency based in Nigeria, built on the belief that science and technology from Africa can operate in entirely new dimensions and compete on a global scale.
+            </p>
+
+             <p className="font-jsl text-gray-600 mt-4 md:mt-4 sm:w-[90%]">
+              We embrace technology as a force for transformation; one that improves lives, simplifies systems, and enhances safety. At Orbitrix, innovation goes beyond ideas; it is about turning bold concepts into functional, real-world solutions. 
+            </p>
+
+             <p className="font-jsl text-gray-600 mt-4 md:mt-4 sm:w-[90%]">
+              Our aim is to showcase the brilliant side of Nigeria by proving that cutting-edge science, engineering, and creativity can originate here and impact the world. Through research, design, and development, we are shaping technologies that respond to modern challenges while pointing toward the future.
             </p>
 
             <div className="flex-start gap-6 mt-6 font-outfit text-lg sm:text-xl">
@@ -55,7 +63,7 @@ const AboutPage = () => {
 
 
       {/* 2nd Section */}
-      <section className="bg-gray-50 pt-10 sm:pt-20">
+      <section className="bg-gray-50 pt-20 sm:pt-30">
         <p className="font-jsl text-center text-[14px] font-bold">WHAT WE OFFER</p>
 
         <h1 className="mt-2 md:mt-4 lg:mt-6 text-center font-jsans w-[85%] sm:w-[90%] mx-auto text-2xl sm:text-3xl md:text-4xl lg:font-bold xl:text-5xl">
@@ -74,36 +82,36 @@ const AboutPage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6 px-6 md:px-10 xl:px-25">
 
           <div className="px-6 py-10 bg-white border-1 border-stone-300">
-            <img src="/astro-icon.png" className="h-15 lg:h-20 mx-auto" />
+            <img src="/drone-icon.png" className="h-20 lg:h-20 mx-auto" />
 
-            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Space Travel</h1>
+            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Logistics Drone</h1>
 
             <p className="mt-2 text-[15px] font-jsl text-center text-gray-500">
-              Consectetur adipiscing elit, sed do eiusm od tempor incididunt ut labore.
+              Smart aerial delivery systems designed to move goods faster, safer, and beyond the limitatins of rad traffic.
             </p>
 
             <ArrowRight className="mt-4 mx-auto" />
           </div>
 
           <div className="px-6 py-10 bg-white border-1 border-stone-300">
-            <img src="/balloon-icon.png" className="h-15 lg:h-20 mx-auto" />
+            <img src="/dog-icon.png" className="h-20 lg:h-20 mx-auto" />
 
-            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Hot Air Ballons</h1>
+            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Robotics Dogs</h1>
 
             <p className="mt-2 text-[15px] font-jsl text-center text-gray-500">
-              Consectetur adipiscing elit, sed do eiusm od tempor incididunt ut labore.
+              Intelligent robotic companions built to assist with tasks, support operations, and explore human - robot interactions.
             </p>
 
             <ArrowRight className="mt-4 mx-auto" />
           </div>
 
           <div className="px-6 py-10 bg-white border-1 border-stone-300">
-            <img src="/jet-icon.png" className="h-25 lg:h-30 mx-auto" />
+            <img src="/robot-icon.png" className="h-19 lg:h-30 mx-auto" />
 
-            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-4">Private Jets</h1>
+            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Humanoid Robots</h1>
 
             <p className="mt-2 text-[15px] font-jsl text-center text-gray-500">
-              Consectetur adipiscing elit, sed do eiusm od tempor incididunt ut labore.
+              Advanced robotic systems developed to study automation, assistance, and future human - machine collaboration
             </p>
 
             <ArrowRight className="mt-4 mx-auto" />
